@@ -1,0 +1,55 @@
+---
+title: "Week 9 class 3 - Chaos and Fractals"
+author: "Phileas Dazeley-Gaist"
+date: "03/02/2022"
+theme: cerulean
+output:
+  pdf_document:
+    highlight: default
+    keep_tex: no
+    fig_caption: yes
+    latex_engine: pdflatex
+fontsize: 11pt
+geometry: margin=1in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggthemes)
+library(ggrepel)
+library(magic)
+library(lubridate)
+library(zeallot)
+
+clear_theme <- theme(legend.position="none",
+            panel.background = element_rect(fill="white"),
+            plot.margin=grid::unit(c(1,1,0,0), "mm"),
+            panel.grid=element_blank(),
+            axis.ticks=element_blank(),
+            axis.title=element_blank(),
+            axis.text=element_blank())
+```
+
+## Today's goals
+
+- Strange attractors, (1D vs 2D vs 3D)
+- Ice (interlude)
+- Drawing
+
+## R Lorenz attractor
+
+The behaviour of strange attractors is limited by the spacial dimension of the space it inhabits. In two dimensions: a continuous infinite curve cannot be chaotic, it has to end in a cycle or a fixed point. This is known as the Poincaré-Bendixson theorem. 
+
+1D - Only one direction. If space is bounded, fixed points.
+2D - Only two directions. If space is bounded, cycles or fixed points.
+3D - 3 directions. If space is bounded, you can still have chaotic orbits. You can also get cycles or fixed points.
+
+Here is code for a Lorenz attractor plotter in r
+
+```{r}
+
+```
+
+## Drawing
+

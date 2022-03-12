@@ -1,0 +1,33 @@
+---
+title: "Week 4 class 2 - Chaos and Fractals (lab)"
+author: "Phileas Dazeley-Gaist"
+date: "25/01/2022"
+theme: cerulean
+output:
+  pdf_document:
+    highlight: default
+    keep_tex: no
+    fig_caption: yes
+    latex_engine: pdflatex
+fontsize: 11pt
+geometry: margin=1in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+![](w4c2 figures/1.png)
+
+![](w4c2 figures/2.png)
+
+![](w4c2 figures/3.png)
+
+![](w4c2 figures/4.png)
+
+![](w4c2 figures/5.png)
+
+![](w4c2 figures/6.png)
+
+![](w4c2 figures/7.png)

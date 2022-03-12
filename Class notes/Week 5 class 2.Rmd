@@ -1,0 +1,23 @@
+---
+title: "Week 5 class 2 - Chaos and Fractals (lab)"
+author: "Phileas Dazeley-Gaist"
+date: "01/02/2022"
+theme: cerulean
+output:
+  pdf_document:
+    highlight: default
+    keep_tex: no
+    fig_caption: yes
+    latex_engine: pdflatex
+fontsize: 11pt
+geometry: margin=1in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+![](w5c2 figures/origami thing 1.jpg)
+
+![](w5c2 figures/origami thing 2.jpg)

@@ -1,0 +1,48 @@
+---
+title: "Week 5 class 1 - Chaos and Fractals"
+author: "Phileas Dazeley-Gaist"
+date: "31/01/2022"
+theme: cerulean
+output:
+  pdf_document:
+    highlight: default
+    keep_tex: no
+    fig_caption: yes
+    latex_engine: pdflatex
+fontsize: 11pt
+geometry: margin=1in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Today's goals
+
+- More with fractals + dimensions
+- Random Koch Curve
+- Cantor Set Addresses 
+
+## For Tuesday: 
+
+- Reading
+- Bring scissors + ruler
+
+## For Thursday
+
+- Fractal show and tell (prepare a fractal of your choice)
+
+## More with fractals + dimensions
+
+From last time:
+
+**The number of small copies # is equal to the growth factor R to the power of the dimension D.**
+
+$\# = R^D$
+
+## More with fractals and fractal dimension
+
+![](w5c1 figures/exercise.MP.jpg)
+
+![](w5c1 figures/fractal dimension of the sierpinski triangle.png)

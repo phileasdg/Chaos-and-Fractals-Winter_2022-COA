@@ -1,0 +1,3 @@
+Navigate to the desired file using the terminal, and enter the following: 
+
+convert -density 300 way_too_big_file.pdf out.pdf

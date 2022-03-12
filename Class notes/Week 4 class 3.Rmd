@@ -1,0 +1,39 @@
+---
+title: "Week 4 class 3 - Chaos and Fractals"
+author: "Phileas Dazeley-Gaist"
+date: "27/01/2022"
+theme: cerulean
+output:
+  pdf_document:
+    highlight: default
+    keep_tex: no
+    fig_caption: yes
+    latex_engine: pdflatex
+fontsize: 11pt
+geometry: margin=1in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Questions to ask today
+
+- How do I translate the logistic function's discrete form into the continuous form?
+
+## Today's goals
+
+- Fractals and fractal dimension
+
+![](w4c3 figures/how many things fit inside other things.jpg)
+
+![](w4c3 figures/making a snowflake.MP.jpg)
+
+![](w4c3 figures/fractal dimension exercise.jpg)
+
+![](w4c3 figures/correct exercises.jpg)
+
+![](w4c3 figures/beads correct.MP.jpg)
+
+![](w4c3 figures/fractal notes.MP.jpg)

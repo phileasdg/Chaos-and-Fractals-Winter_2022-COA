@@ -1,0 +1,61 @@
+---
+title: "Week 2 class 2 - Chaos and Fractals (lab)"
+author: "Phileas Dazeley-Gaist"
+date: "10/01/2022"
+theme: cerulean
+output:
+  pdf_document:
+    highlight: default
+    keep_tex: no
+    fig_caption: yes
+    latex_engine: pdflatex
+fontsize: 11pt
+geometry: margin=1in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Today's goals
+
+![](w2c2 figures/goals.png)
+
+## Trajectory types on the logistic map
+
+For $0 \leq r \leq 1$: The trajectory approaches $0$
+
+![](w2c2 figures/0.5.png)
+![](w2c2 figures/0.5.png)
+
+For $1 < r < 3$: The trajectory approaches a fixed point.
+
+![](w2c2 figures/1.5.png)
+![](w2c2 figures/2.9.png)
+
+For $3 \leq r < 4$: Things get weird.
+
+For a range of values of $r$, the trajectory enters a periodic behaviour of period 2.
+
+![](w2c2 figures/3.3.png)
+
+For higher values of $r$ the period of the cycle doubles, resulting in period 4.
+Then for even higher values, it doubles again, and then again for even higher values!
+
+![](w2c2 figures/3.5.png)
+![](w2c2 figures/3.56.png)
+
+Then, for high enough values of $r$ the period stops settling, and we get aperiodic behaviour. But within this aperiodic streak, some values of $r$ will return periodic trajectories.
+
+![](w2c2 figures/3.835.png)
+
+Finally, for $r = 4$, we get an aperiodic trajectory. 
+
+![](w2c2 figures/4.png)
+
+## Sensitive dependence on initial conditions
+
+Notice that in aperiodic trajectories, a very slight variation in $r$ will result in a completely different trajectory somewhere down the line. This is known as the butterfly effect, or sensitive dependence on initial conditions. 
+
+![](w2c2 figures/sensitive dependence on initial conditions.png)
